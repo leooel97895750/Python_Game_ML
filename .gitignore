@@ -1,0 +1,13 @@
+*.swp
+*.pyproj
+*.pyproj.user
+*.sln
+*.zip
+*.pickle
+*.sav
+__pycache__/
+venv/*
+.vs/*
+ml_play*.py
+!ml_play_template.py
+!ml_play_manual.py

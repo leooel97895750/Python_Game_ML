@@ -15,7 +15,8 @@ class MLPlay:
         """
         if scene_info["status"] == "GAME_OVER":
             return "RESET"
-
+        
+        #print(scene_info)
         snake_head = scene_info["snake_head"]
         food = scene_info["food"]
 

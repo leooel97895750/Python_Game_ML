@@ -4,6 +4,7 @@
 *.sln
 *.zip
 *.pickle
+*.pkl
 *.sav
 __pycache__/
 venv/*
@@ -11,3 +12,5 @@ venv/*
 ml_play*.py
 !ml_play_template.py
 !ml_play_manual.py
+log
+feature

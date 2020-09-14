@@ -52,6 +52,10 @@ class MLPlay:
             #print(cars)
 
             #判斷相撞
+            #沒事就加速
+            #比較三道前面車子的距離決定是否換車道(變換車道過程也要要預測)
+            #依據車道、車位置、車速決定往左往右(盡量置中)
+            #前車太近則煞車
             for i in cars[road]:
                 if i["pos"][1] > 0 and i["pos"][1] < self.car_pos[1] and i["velocity"] < self.car_vel:
 
